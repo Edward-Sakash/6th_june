@@ -21,7 +21,7 @@ plot the time against X
 1:03
 Hint: the inner function of decorator should return the time only."""
 
-"""# Solution 1
+# Solution 1
 import timeit
 import matplotlib.pyplot as plt
 
@@ -135,7 +135,7 @@ plt.ylabel('Execution Time (seconds)')
 plt.title('Binary Search Execution Time')
 plt.show()
 
-print("_________________________________________")"""
+print("_________________________________________")
 
 # Solution again
 import timeit
