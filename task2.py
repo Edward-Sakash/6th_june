@@ -34,7 +34,7 @@ def measure_time(func):
         return execution_time
     return wrapper
 
-@measure_time
+#@measure_time
 def binary_search(lst_sorted, value):
     while len(lst_sorted) > 1:
         middle = len(lst_sorted) // 2
