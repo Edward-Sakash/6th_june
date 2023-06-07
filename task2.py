@@ -67,7 +67,7 @@ plt.show()
 print("_________________________________________________")
 
 # Solution 2
-import timeit
+"""import timeit
 import matplotlib.pyplot as plt
 
 def binary_search(lst_sorted, value):
@@ -97,11 +97,11 @@ plt.xlabel('Input Size')
 plt.ylabel('Execution Time (seconds)')
 plt.title('Binary Search Execution Time')
 plt.show()
-
+"""
 print("_____________________________________________")
 
 # Solution
-import timeit
+"""import timeit
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -133,12 +133,12 @@ plt.yscale('log')
 plt.xlabel('Input Size')
 plt.ylabel('Execution Time (seconds)')
 plt.title('Binary Search Execution Time')
-plt.show()
+plt.show()"""
 
 print("_________________________________________")
 
 # Solution again
-import timeit
+"""import timeit
 import matplotlib.pyplot as plt
 
 def measure_time(func):
@@ -175,5 +175,5 @@ plt.plot(X, execution_times, marker='o')
 plt.xlabel('Input Size')
 plt.ylabel('Execution Time (seconds)')
 plt.title('Binary Search Execution Time')
-plt.show()
+plt.show()"""
 
